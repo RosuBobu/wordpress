@@ -1,0 +1,29 @@
+/*
+Theme Name: Limpia Enfant par WP Marmite
+Description: Theme enfant du theme Limpia. Vous pouvez desormais le personnaliser sans risquer de perdre vos modifications
+Author: WPMarmite
+Author URI: https://wpmarmite.com
+Template: limpia
+Version: 1.0
+*/
+
+body #jp-relatedposts h3.jp-relatedposts-headline.text-left{
+    text-align: left;
+}
+
+.jp-relatedposts img{
+    height: 200px;
+    object-fit: cover;
+}
+
+h1.border::before{
+    content:"";
+    height: 40px;
+    width: 90px;
+    display: block;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    position: absolute;
+    left: -20px;
+    top: 30px;
+}
